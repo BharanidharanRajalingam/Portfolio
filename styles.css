@@ -5,9 +5,11 @@
 body {
     background-color: #f9f9f9;
 }
-p{
+
+p {
     margin-bottom: 0;
 }
+
 /* Header */
 .pf_header {
     position: sticky;
@@ -311,9 +313,11 @@ p{
 .contactus {
     margin: 3% auto;
 }
-.getclass{
+
+.getclass {
     position: relative;
 }
+
 .getintouch {
     background-color: #b3edfd;
     border-radius: 20px;
@@ -324,26 +328,66 @@ p{
     margin: 15px 0;
 }
 
-.contactcard{
+.contactcard {
     background-color: #f1f1f1;
-    padding:25px;
+    padding: 25px;
     border-radius: 10px;
     margin: 15px 0;
 }
-.contactcard svg{
-    width: 20px;
+
+.contactcard .bi {
+    font-size: 20px;
 }
-.contactcard div{
-display: flex;
-gap: 10px;
-align-items: center;
-margin: 15px 0px;
+
+.contactcard div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 7px 0px;
 }
+
+#emailText {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
 /* Contact Us */
 /* Footer */
-.footer{
+.footer {
     background-color: #b3edfd;
-    color: #B55755;
-    padding: 15px;
+    font-size: 20px;
+    padding: 10px 15px;
 }
+
+.footer div a:hover .bi {
+    color: #B55755;
+}
+
+.footer div {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+}
+
 /* Footer */
+
+/* Scroll To Top */
+#scroll-top {
+    position: fixed;
+    bottom: 45px;
+    right: 25px;
+    font-size: 34px;
+    cursor: pointer;
+    color: #65cccd;
+}
+
+#scroll-top:hover {
+    transition: 0.3s;
+    color: #B55755;
+    box-shadow: 0 0 20px 4px #fff;
+}
+
+/* Scroll To Top */
